@@ -9,7 +9,7 @@ const Services = () => {
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Blanditiis soluta nisi ex distinctio corrupti placeat officiis vel esse reprehenderi</p>
             <div className='text-center'>
                  <Link to = "/checkout">
-                     <button className='btn btn-primary'>Proceed Checkout</button>
+                     <button className='btn btn-primary'>Checkout</button>
                  </Link>
             </div>
         </div>

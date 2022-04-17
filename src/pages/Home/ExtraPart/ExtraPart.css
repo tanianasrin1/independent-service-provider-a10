@@ -1,0 +1,13 @@
+.extraPart-title{
+    text-align: center;
+    color: orange;
+}
+
+.extraPart-details{
+    display: flex;
+
+}
+
+.extraPart-details img{
+    width: 100%; 
+}

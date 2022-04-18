@@ -6,14 +6,35 @@ import SocialLogin from '../SocialLogin/SocialLogin';
 import './Register.css';
 
 const Register = () => {
+    const [
+        createUserWithEmailAndPassword,
+        user,
+        loading,
+        error,
+      ] = useCreateUserWithEmailAndPassword(auth);
   const navigate = useNavigate();
- const navigateLogin = () =>{
-     navigate('/login')
+  const navigateLogin = () =>{
+     navigate('/login');
+ }
+
+ if(user){
+    navigate('/home');
+ }
+
+ const handleRegister = (event) =>{
+     event.preventDefault();
+     const name = event.target.name.value;
+     const email = event.target.email.value;
+     const password = event.target.password.value;
+    //  console.log(event.target.email)
+
+    createUserWithEmailAndPassword(email, password);
+      
  }
     return (
         <div className='register-form mt-4'>
             <h2 style={{textAlign: 'center'}} className="register-title">Please Register!!!</h2>
-            <form className='mt-3' >
+            <form  onSubmit={handleRegister} >
                 <input type="text" name="name" id="" placeholder='Your name' />
                 
                 <input type="email" name="email" id="" placeholder='Your email' required/>

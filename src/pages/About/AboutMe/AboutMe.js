@@ -3,8 +3,8 @@ import './AboutMe.css'
 
 const AboutMe = () => {
     return (
-        <div>
-            <h1>This is about me page</h1>
+        <div className='container'>
+            <h1 className='about-title mt-4'>This is a AboutMe page</h1>
         </div>
     );
 };

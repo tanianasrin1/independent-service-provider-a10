@@ -1,3 +1,23 @@
 .checkout-title{
     color: orange;
 }
+.client1{
+    width: 350px;
+    height: 200px;
+    background-color: rgb(176, 160, 190);
+}
+.client2{
+    width: 350px;
+    height: 200px;
+    background-color: rgb(148, 231, 148);
+}
+.client3{
+    width: 350px;
+    height: 200px;
+    background-color: rgb(245, 166, 212);
+}
+.clients{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}

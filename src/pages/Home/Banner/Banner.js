@@ -13,13 +13,17 @@ const Banner = () => {
     };
   return (
     <Carousel activeIndex={index} onSelect={handleSelect}>
+     
       <Carousel.Item>
+      
         <img
           className="d-block w-100"
           src={banner1}
           alt="First slide"
         />
+        
         <Carousel.Caption>
+        <h1>Welcome To My Travel Blogs Website</h1>
           <h3>Travel Blog World </h3>
           <p>To make a WordPress blog, you will need a domain name and web hosting.</p>
         </Carousel.Caption>

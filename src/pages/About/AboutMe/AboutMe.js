@@ -1,9 +1,10 @@
 import React from 'react';
+import './AboutMe.css'
 
 const AboutMe = () => {
     return (
         <div>
-            <h2>This a about me</h2>
+            <h1>This is about me page</h1>
         </div>
     );
 };

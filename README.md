@@ -1,6 +1,6 @@
 # Travel Blogs
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+##[private repo link](https://independent-service-2bb06.web.app/).
 
 ## Available Scripts
 

@@ -1,0 +1,10 @@
+.articleBlogs{
+    border: 1px solid lightcoral;
+    border-radius: 10px;
+    box-shadow: 2px 2px 8px;
+}
+.articleBlogs img{
+    width: 100%;
+    border-radius: 10px;
+    
+}

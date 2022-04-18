@@ -1,0 +1,20 @@
+[
+    {
+        "img":"https://i.ibb.co/30Z1KT1/rsz-b1-1.jpg",
+        "name":" Mountain",
+        "id":1,
+        "description":"A clear grid style is used to display the blog’s articles. Individual posts consist of a multitude of relevant photographs. Guides for a selection of countries also list information in a clear format images and links."
+    },
+    {
+        "img":"https://i.ibb.co/7bTSgh0/rsz-1b3-1.jpg",
+        "name":"Waste",
+        "id":2,
+        "description":"Migrationoloy is a travel food blog that is well laid out, organized, and very easy to navigate. The homepage uses full-screen video media to appeal to fellow or wanna-be travelers, and it works. The rest of the homepage is divided into sections, displaying full-width images with text overlay, a search"
+    },
+    {
+        "img":"https://i.ibb.co/vQy4pF6/rsz-b4-1.jpg",
+        "name":"Snowfall",
+        "id":3,
+        "description":"The Poor Traveler uses a full-screen slider that displays awe-inspiring images which will immediately connect with wanna-be travelers. An Agoda search bar sits at the bottom of this slider. This helps visitors find accommodation in their chosen city, which in turn, aids the monetization of the blog."
+    }
+]

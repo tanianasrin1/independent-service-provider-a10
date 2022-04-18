@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import Article from '../Article/Article';
 import TourGuide from '../TourGuide/TourGuide';
+import VideoBlogs from '../VideoBlogs/VideoBlogs';
 import './Services.css'
 
 const Services = () => {
@@ -15,6 +16,7 @@ const Services = () => {
                      <button className='btn btn-primary'>Checkout</button>
                  </Link>
             </div>
+            <VideoBlogs></VideoBlogs>
         </div>
     );
 };

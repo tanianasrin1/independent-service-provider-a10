@@ -3,9 +3,9 @@ import TourGuides from '../TourGuides/TourGuides';
 import './TourGride.css'
 
 const tourGuides = [
-    {id:1, name:'Mountain', rating:'4', duration:'2days', cost:4000},
-    {id:1, name:'Sea', rating:'4.0', duration:'3days', cost:6000 },
-    {id:1, name:'Snowfall', rating:'5', duration:'4days', cost:8000}
+    {id:1, name:'Mountain', rating:4, duration:'2days', cost:4000},
+    {id:1, name:'Sea', rating:4.0, duration:'3days', cost:6000 },
+    {id:1, name:'Snowfall', rating:5, duration:'4days', cost:8000}
 ] 
 
 const TourGuide = () => {

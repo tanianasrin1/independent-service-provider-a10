@@ -22,7 +22,7 @@ click here to create private repo: https://independent-service-2bb06.web.app/
 - React Router
 - React Firebase Hooks
 - React-Toastify
--html, css, bootstrap
+- html, css, bootstrap
 
 
 

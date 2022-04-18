@@ -20,7 +20,7 @@ const Banner = () => {
           alt="First slide"
         />
         <Carousel.Caption>
-          <h3>Travel blog world themes</h3>
+          <h3>Travel Blog World </h3>
           <p>To make a WordPress blog, you will need a domain name and web hosting.</p>
         </Carousel.Caption>
       </Carousel.Item>

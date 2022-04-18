@@ -11,19 +11,28 @@ const Register = () => {
         user,
         loading,
         error,
-      ] = useCreateUserWithEmailAndPassword(auth);
+      ] = useCreateUserWithEmailAndPassword(auth, {sendEmailVerification: true});
+      let errorElement;
   const navigate = useNavigate();
   const navigateLogin = () =>{
      navigate('/login');
  }
 
+
  if(user){
     navigate('/home');
  }
 
+ if (error) {
+         
+    errorElement= <p className='text-danger'>Error: {error.message}</p>
+     
+    
+  }
+
  const handleRegister = (event) =>{
      event.preventDefault();
-     const name = event.target.name.value;
+    //  const name = event.target.name.value;
      const email = event.target.email.value;
      const password = event.target.password.value;
     //  console.log(event.target.email)
@@ -42,6 +51,7 @@ const Register = () => {
                 <input type="password" name="password" id=""  placeholder='Your password' required/>
                 <input type="submit" value="Register" />
             </form>
+            {errorElement}
             <p>Already have an account? <Link to="/login" className="text-danger pe-auto text-decoration-none" onClick={navigateLogin} >Please Login</Link> </p>
             <SocialLogin></SocialLogin>
         </div>

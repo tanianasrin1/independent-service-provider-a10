@@ -11,12 +11,12 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 -
 -
 
--Login sign up 
--using navbar
--using a slider with responsive
--Fixed RequireAuth route
--fixed 404 page
--footer route
+- Login sign up 
+- using navbar
+- using a slider with responsive
+- Fixed RequireAuth route
+- fixed 404 page
+- footer route
 
 ### `Technologies`
 <!-- -React

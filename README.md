@@ -7,10 +7,6 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 
 ### `Project Feature`
--
--
--
-
 - Login sign up 
 - using navbar
 - using a slider with responsive
@@ -19,13 +15,13 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 - footer route
 
 ### `Technologies`
-<!-- -React
--Firebase
--React Bootstrap
--React Router
--React Firebase Hooks
--React-Toastify
--html, css, bootstrap -->
+- React
+- Firebase
+- React Bootstrap
+- React Router
+- React Firebase Hooks
+- React-Toastify
+- html, css, bootstrap
 
 
 

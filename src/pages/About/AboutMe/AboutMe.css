@@ -2,3 +2,13 @@
     text-align: center;
     color: orange;
 }
+
+.profile{
+    border-radius: 50%;
+}
+
+.profile-cart{
+    width: 500px;
+    border: 1px solid lightslategray;
+
+}

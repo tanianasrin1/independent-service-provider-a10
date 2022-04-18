@@ -8,26 +8,26 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ### `Project Feature`
 
--
--
--
--
--
+-Login sign up 
+-using navbar
+-using a slider with responsive
+-Fixed RequireAuth route
+-fixed 404 page
+-footer route
 
-### `npm test`
+### `Technologies`
+-React
+-Firebase
+-React Bootstrap
+-React Router
+-React Firebase Hooks
+-React-Toastify
+-html, css, bootstrap
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+
 
 ### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
 ### `npm run eject`
 
